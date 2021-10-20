@@ -28,10 +28,10 @@
 
 .menu {
   position: fixed;
-  top: 2.5rem;
   z-index: 1;
 
-  top: 3rem;
+  left: .5rem;
+  top: .5rem;
 
 
   &-checkbox {
@@ -50,7 +50,6 @@
 
     height: 6rem;
     width: 6rem;
-    background-color: $color-principal;
 
     transition: all .3s;
 
@@ -69,9 +68,9 @@
     &::before,
     &::after {
       transition: all .4s;
-      width: 3rem;
+      width: 2.5rem;
       height: .2rem;
-      background-color: $color-black;
+      background-color: $color-text;
       display: inline-block;
     }
 
@@ -83,23 +82,23 @@
     }
 
     &::before {
-      top: -.8rem;
+      top: -.5rem;
     }
     &::after {
-      top: .8rem;
+      top: .5rem;
     }
   }
 
   &__no-list {
-    top: -2.5rem;
-    left: -3rem;
+    top: -.5rem;
+    left: -.5rem;
     visibility: hidden;
   }
 
   &__hide-list {
 
-    top: -2.5rem;
-    left: -3rem;
+    top: -.5rem;
+    left: -.5rem;
     visibility: hidden;
     opacity: 0;
     transform: translateX(-15rem);
@@ -111,8 +110,8 @@
     animation-duration: .25s;
     animation-timing-function: ease-out;
 
-    top: -2.5rem;
-    left: -3rem;
+    top: -.5rem;
+    left: -.5rem;
   }
 
   &__list {
@@ -123,10 +122,10 @@
 
     width: 40rem;
     height: 100vh;
-    top: -3rem;
+    // top: -3rem;
 
     padding: 7rem 2.5rem;
-    background-color: $color-principal;
+    background-color: #dbcab6;
 
     &-element {
       text-align: center;
@@ -140,8 +139,11 @@
         cursor: pointer;
       }
 
-      :hover{
-        background-color: $color-principal-light;
+      &:hover{
+        & > label {
+          color: #ff6300;
+          font-weight: bold;
+        }
       }
     }
   }

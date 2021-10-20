@@ -12,8 +12,21 @@
     width: 100%;
     margin: auto;
 
-	background-color: $color-principal;
-    color: $color-text-alternative;
+	  // background-color: $color-principal;
+    background:
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, .5),
+        rgba(0, 0, 0, .7),
+        rgba(0, 0, 0, 1)
+      ),
+      url("/assets/images/bg1.jpg")
+      no-repeat center;
+    background-size: 100%;
+
+    color: $color-text;
+
 
     @include respond(tab-land) {
 			height: 90rem;
@@ -31,10 +44,11 @@
 
     &__profile{
         margin: 15rem 0 3rem 0;
-        height: 10rem;
+        height: 12rem;
         width: auto;
+        border-radius: 50rem;
 
-        filter: $filter-color-svg;
+        // filter: $filter-color-svg;
     }
 
     &__username{

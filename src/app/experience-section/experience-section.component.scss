@@ -10,7 +10,20 @@
     width: 100%;
     margin: auto;
 
-    background: $color-secondary;
+
+    background-image: linear-gradient(to bottom, #000000, #18080a, #260e0e, #33120f, #40160b, #521d0c, #64250b, #762e06, #963b06, #b84805, #db5503, #ff6300);
+
+    &__jobs {
+      &-title {
+        color: #ff6300
+      }
+    }
+
+    &__studies {
+      &-title {
+        color: $color-text
+      }
+    }
 
     &__jobs, &__studies{
         width: 90vw;
@@ -28,7 +41,7 @@
           padding: 0;
         }
 
-        
+
         &-content{
           text-align: justify;
 

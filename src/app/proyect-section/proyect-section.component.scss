@@ -4,8 +4,9 @@
     display: flex;
     justify-content: space-around;
     min-height: 100vh;
-    background-color: $color-secondary-dark;
-    padding: 10rem 3rem;
+    // background-color: $color-secondary-dark;
+    background-image: linear-gradient(to bottom, #ff6300, #ec7624, #da843f, #c98f5a, #b89776);
+    padding: 10rem 3rem 2rem;
 
     @include respond(tab-land){
       flex-direction: column;
@@ -14,7 +15,7 @@
     }
 
     // @include respond(phone){
-        
+
     // }
 
     & > * {
