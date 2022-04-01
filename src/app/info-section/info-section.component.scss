@@ -27,14 +27,15 @@
 
 
     &__card{
-        background-color: $color-secondary-dark;
+        background-color: $color-text;
+        color: #ff6300;
         padding: 3rem;
         margin: 1.5rem;
 
         min-width: 50rem;
         max-width: 60rem;
 
-        border-radius: 1rem;
+        border-radius: 0.4rem;
 
         @include respond(tab-port){
             width: 80%;
@@ -54,12 +55,12 @@
         &-list{
             list-style: none;
             padding: 3rem;
-            background-color: $color-principal;
-            border-radius: 1rem;
+            background-color: #000000;
+            border-radius: 0.4rem;
 
             &-element{
                 margin: 1rem;
-                color: $color-text-alternative;
+                color: $color-text;
                 display: flex;
             }
         }

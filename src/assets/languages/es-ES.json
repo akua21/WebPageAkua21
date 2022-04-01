@@ -33,28 +33,14 @@
          "title": "Find your way",
          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.",
          "more_info": "Más información",
-         "color": "rgb(100, 100, 0)",
+         "color": "#ff6300",
          "date": "Enero 2020 - Enero 2021"
        },
        {
          "title": "Find your way2",
          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.",
          "more_info": "Más información",
-         "color": "rgb(100, 100, 50)",
-         "date": "Enero 2020 - Enero 2021"
-       },
-       {
-         "title": "Find your way3",
-         "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.",
-         "more_info": "Más información",
-         "color": "rgb(100, 100, 100)",
-         "date": "Enero 2020 - Enero 2021"
-       },
-       {
-         "title": "Find your way3",
-         "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.",
-         "more_info": "Más información",
-         "color": "rgb(100, 100, 150)",
+         "color": "#ff6300",
          "date": "Enero 2020 - Enero 2021"
        }
      ],
@@ -64,14 +50,14 @@
          "title": "Find your way",
          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.",
          "more_info": "Más información",
-         "color": "rgb(100, 200, 0)",
+         "color": "#ffffff",
          "date": "Enero 2020 - Enero 2021"
        },
        {
          "title": "Find your way",
          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.",
          "more_info": "Más información",
-         "color": "rgb(0, 0, 250)",
+         "color": "#ffffff",
          "date": "Enero 2020 - Enero 2021"
        }
      ]
